@@ -1,0 +1,18 @@
+[package]
+name = "facaded_rnn_cpp"
+version = "0.2.0"
+edition = "2021"
+authors = ["Matthew Abbott"]
+license = "MIT"
+description = "C/C++ FFI bindings for facaded_rnn GPU-accelerated RNN library"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[features]
+default = []
+cuda = ["facaded_rnn/cuda"]
+opencl = ["facaded_rnn/opencl"]
+
+[dependencies]
+facaded_rnn = { path = "..", default-features = false }

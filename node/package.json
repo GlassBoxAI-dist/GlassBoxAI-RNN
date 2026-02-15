@@ -1,0 +1,20 @@
+{
+  "name": "facaded-rnn",
+  "version": "0.2.0",
+  "description": "Node.js bindings for facaded_rnn GPU-accelerated RNN library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "author": "Matthew Abbott",
+  "napi": {
+    "name": "facaded-rnn",
+    "triples": {}
+  },
+  "scripts": {
+    "build": "napi build --release",
+    "build:debug": "napi build"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^3.0.0"
+  }
+}

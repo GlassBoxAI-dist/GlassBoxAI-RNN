@@ -1,0 +1,23 @@
+[package]
+name = "facaded_rnn_node"
+version = "0.2.0"
+edition = "2021"
+authors = ["Matthew Abbott"]
+license = "MIT"
+description = "Node.js bindings for facaded_rnn GPU-accelerated RNN library"
+
+[lib]
+crate-type = ["cdylib"]
+
+[features]
+default = []
+cuda = ["facaded_rnn/cuda"]
+opencl = ["facaded_rnn/opencl"]
+
+[dependencies]
+facaded_rnn = { path = "..", default-features = false }
+napi = { version = "3", default-features = false, features = ["napi4"] }
+napi-derive = "3"
+
+[build-dependencies]
+napi-build = "2"

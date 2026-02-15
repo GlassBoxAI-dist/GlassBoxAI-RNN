@@ -1,0 +1,7 @@
+[project]
+name = "FacadedRNN"
+uuid = "a3b2c1d0-1234-5678-9abc-def012345678"
+version = "0.2.0"
+authors = ["Matthew Abbott"]
+description = "Julia bindings for facaded_rnn GPU-accelerated RNN library"
+license = "MIT"
