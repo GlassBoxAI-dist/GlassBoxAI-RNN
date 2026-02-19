@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 1: Strict Bound Checks
  *
@@ -201,3 +203,4 @@ fn verify_gru_cell_forward_bounds() {
     kani::assert(r.len() == hidden_size, "reset gate has correct size");
     kani::assert(h_tilde.len() == hidden_size, "hidden candidate has correct size");
 }
+

@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Wrappers
+ */
 const std = @import("std");
 
 pub fn build(b: *std.Build) void {
@@ -32,3 +36,4 @@ pub fn build(b: *std.Build) void {
     const run_step = b.step("run", "Run the example");
     run_step.dependOn(&run_cmd.step);
 }
+

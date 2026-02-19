@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 2: Pointer Validity Proofs
  *
@@ -185,3 +187,4 @@ fn verify_vec_push_maintains_validity() {
         kani::assert(arr[i] == i as f64, "all pushed values accessible");
     }
 }
+

@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 14: Floating-Point Sanity
  *
@@ -175,3 +177,4 @@ fn verify_infinity_check() {
     let arr: [f64; 4] = [1.0, 2.0, 3.0, 4.0];
     kani::assert(all_finite(&arr), "all values finite");
 }
+

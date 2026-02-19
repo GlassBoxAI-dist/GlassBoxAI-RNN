@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Kani Verification Test Suite - CISA Secure by Design
  *
@@ -41,3 +43,4 @@ mod ffi_opencl_boundary;
 mod ffi_cpu_boundary;
 #[cfg(kani)]
 mod ffi_polyglot;
+

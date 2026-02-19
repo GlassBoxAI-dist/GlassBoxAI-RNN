@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Internal_Logic
 use std::ffi::{CStr, CString};
 use std::os::raw::c_char;
 use std::ptr;
@@ -516,3 +518,4 @@ fn flat_to_2d(data: *const f64, rows: usize, cols: usize) -> Vec<Vec<f64>> {
     let flat = unsafe { slice::from_raw_parts(data, rows * cols) };
     flat.chunks(cols).map(|c| c.to_vec()).collect()
 }
+

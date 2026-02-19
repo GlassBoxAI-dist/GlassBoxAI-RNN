@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Internal_Logic
 /*
  * MIT License
  *
@@ -1730,3 +1732,4 @@ pub fn select_backend_arc(choice: BackendChoice) -> Result<Arc<dyn RnnKernels>, 
     let backend = backend::select_backend(choice)?;
     Ok(Arc::from(backend))
 }
+

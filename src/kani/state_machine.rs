@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 12: State Machine Integrity
  *
@@ -269,3 +271,4 @@ fn verify_no_invalid_state_reachable() {
         kani::assert(model_initialized, "forward requires initialization");
     }
 }
+

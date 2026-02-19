@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Wrappers
+ */
 const std = @import("std");
 const Allocator = std.mem.Allocator;
 
@@ -232,3 +236,4 @@ pub const RnnModel = struct {
         return .{ .count = count, .value = max_val };
     }
 };
+

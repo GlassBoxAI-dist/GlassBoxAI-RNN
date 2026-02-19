@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Kani Verification: CUDA FFI Boundary Safety (CISA/NSA Compliance)
  *
@@ -732,3 +734,4 @@ mod tests {
         assert_eq!(c.len(), 8);
     }
 }
+

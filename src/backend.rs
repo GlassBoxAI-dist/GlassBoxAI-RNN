@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Internal_Logic
 /*
  * MIT License
  *
@@ -1067,3 +1069,4 @@ pub fn select_backend(choice: BackendChoice) -> Result<Box<dyn RnnKernels>, Box<
         }
     }
 }
+

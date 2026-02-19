@@ -1,3 +1,5 @@
+## @file
+## @ingroup RNN_Wrappers
 module FacadedRNN
 
 export RNNModel,

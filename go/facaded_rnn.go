@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Wrappers
+ */
 // Package facaded_rnn provides Go bindings for the facaded_rnn
 // GPU-accelerated RNN library (CUDA/OpenCL/CPU).
 //

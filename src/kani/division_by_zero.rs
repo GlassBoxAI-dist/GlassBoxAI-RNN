@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 5: Division-by-Zero Exclusion
  *
@@ -161,3 +163,4 @@ fn verify_softmax_stability() {
     let shifted = x - max_val;
     kani::assert(shifted <= 0.0, "shifted value is non-positive");
 }
+

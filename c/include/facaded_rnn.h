@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Internal_Logic
+ */
 /*
  * MIT License
  *

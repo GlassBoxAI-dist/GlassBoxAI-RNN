@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Internal_Logic
+ */
 #include "facaded_rnn.hpp"
 #include <iostream>
 #include <iomanip>
@@ -61,3 +65,4 @@ int main() {
 
     return 0;
 }
+

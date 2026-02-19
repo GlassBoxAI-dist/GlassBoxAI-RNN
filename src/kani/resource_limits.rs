@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 15: Resource Limit Compliance
  *
@@ -253,3 +255,4 @@ fn verify_nested_allocation_budget() {
     kani::assert(allocated == total, "nested allocation matches expected");
     kani::assert(allocated <= 16, "within test budget");
 }
+

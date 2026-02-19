@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 11: Constant-Time Execution (Security)
  *
@@ -196,3 +198,4 @@ fn verify_no_early_exit_on_zero() {
     
     kani::assert(result == 5.0, "all weights processed including zeros");
 }
+

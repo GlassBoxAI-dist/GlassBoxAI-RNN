@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Internal_Logic
+ */
 /*
  * C API example for facaded_rnn
  *

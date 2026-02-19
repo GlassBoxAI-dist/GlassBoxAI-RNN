@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 3: No-Panic Guarantee
  *
@@ -224,3 +226,4 @@ fn verify_activation_type_as_int_no_panic() {
     kani::assert(ActivationType::ReLU.as_int() == 2, "relu maps to 2");
     kani::assert(ActivationType::Linear.as_int() == 3, "linear maps to 3");
 }
+

@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 6 & 7: Global State Consistency & Deadlock-Free Logic
  *
@@ -207,3 +209,4 @@ fn verify_no_lock_hierarchy_violation() {
     kani::cover!(valid_order && first != second, "valid different lock order");
     kani::cover!(!valid_order, "invalid lock order (would deadlock)");
 }
+

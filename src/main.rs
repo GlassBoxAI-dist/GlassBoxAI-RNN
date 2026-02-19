@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Internal_Logic
 use facaded_rnn::{
     ActivationType, CellType, LossType, RNNFacade,
     backend::BackendChoice,
@@ -383,3 +385,4 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
+

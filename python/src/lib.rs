@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Wrappers
 use pyo3::prelude::*;
 use pyo3::exceptions::PyValueError;
 
@@ -281,3 +283,4 @@ fn facaded_rnn_python(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<PyRNNModel>()?;
     Ok(())
 }
+

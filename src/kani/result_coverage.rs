@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 9: Result Coverage Audit
  *
@@ -229,3 +231,4 @@ fn verify_io_error_would_be_handled() {
         Err(_) => kani::assert(error_variant % 4 != 0, "error case handled"),
     }
 }
+

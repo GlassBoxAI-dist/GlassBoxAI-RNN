@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 4: Integer Overflow Prevention
  *
@@ -200,3 +202,4 @@ fn verify_hidden_size_product_calculation() {
     
     kani::assert(total_hidden >= hidden_size || num_layers == 0, "saturating_mul safe");
 }
+

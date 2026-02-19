@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Wrappers
+ */
 const std = @import("std");
 const rnn = @import("facaded_rnn");
 
@@ -82,3 +86,4 @@ pub fn main() !void {
 
     try stdout.print("\nDone.\n", .{});
 }
+

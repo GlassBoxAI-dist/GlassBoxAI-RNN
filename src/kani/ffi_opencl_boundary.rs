@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Kani Verification: OpenCL FFI Boundary Safety (CISA/NSA Compliance)
  *
@@ -572,3 +574,4 @@ mod tests {
         assert_eq!(flat.len(), 24);
     }
 }
+

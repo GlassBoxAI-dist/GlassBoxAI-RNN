@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Kani Verification: Polyglot FFI Boundary Safety (CISA/NSA Compliance)
  *
@@ -782,3 +784,4 @@ mod tests {
         assert_eq!(std::mem::size_of::<f64>(), 8);
     }
 }
+

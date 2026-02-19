@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Kani Verification: CPU Backend FFI Boundary Safety (CISA/NSA Compliance)
  *
@@ -598,3 +600,4 @@ mod tests {
         assert_eq!(pre.len(), 2);
     }
 }
+

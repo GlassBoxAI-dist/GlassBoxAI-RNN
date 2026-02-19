@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Wrappers
+ */
 package main
 
 import (

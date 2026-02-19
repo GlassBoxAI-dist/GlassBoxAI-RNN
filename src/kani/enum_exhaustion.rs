@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 13: Enum Exhaustion
  *
@@ -244,3 +246,4 @@ fn verify_no_unreachable_variants() {
     let all_covered = covered.iter().all(|&c| c);
     kani::assert(all_covered, "all variants are reachable");
 }
+

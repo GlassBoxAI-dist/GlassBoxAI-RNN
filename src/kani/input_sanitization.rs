@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 8: Input Sanitization Bounds
  *
@@ -238,3 +240,4 @@ fn verify_epoch_loop_bounded() {
     
     kani::assert(epoch <= max_epochs, "epochs bounded by max");
 }
+

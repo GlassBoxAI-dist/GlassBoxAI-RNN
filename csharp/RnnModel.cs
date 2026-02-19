@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RNN_Wrappers
+ */
 using System;
 using System.Runtime.InteropServices;
 

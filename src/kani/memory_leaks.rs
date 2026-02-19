@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Core_Verified
 /*
  * Requirement 10: Memory Leak/Leakage Proofs
  *
@@ -221,3 +223,4 @@ fn verify_string_allocation_freed() {
     
     drop(s);
 }
+

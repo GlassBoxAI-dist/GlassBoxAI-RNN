@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RNN_Wrappers
 use napi::bindgen_prelude::*;
 use napi_derive::napi;
 
@@ -304,3 +306,4 @@ impl RNNModel {
         GradientDiagnostic { count, value }
     }
 }
+
